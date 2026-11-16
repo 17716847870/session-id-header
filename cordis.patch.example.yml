@@ -1,9 +1,8 @@
-# Example only. Replace the name with the plugin's absolute file URL.
-# Replace linksub with the provider route name from your own configuration.
-# Append this item to the existing patch array; do not overwrite the file.
-- insert:
-    - id: session-id-header
-      name: "file:///REPLACE_WITH_ABSOLUTE_PATH/session-id-header.mjs"
-      config:
-        providers: [linksub]
-        headers: [x-session-id]
+# Optional configuration override AFTER installing the bundle.
+# Replace linksub with your provider route name, not your model name.
+# Append this item to the profile's existing patch array; do not overwrite it.
+# The bundle already inserts the plugin. Do not insert it a second time.
+- id: session-id-header
+  config:
+    providers: [linksub]
+    headers: [x-session-id]

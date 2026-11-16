@@ -1,0 +1,7 @@
+# Composition entry loaded by the Harness plugin manager.
+- insert:
+    - id: session-id-header
+      name: session-id-header
+      config:
+        providers: [linksub]
+        headers: [x-session-id]
