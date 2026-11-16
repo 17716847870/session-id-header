@@ -3,5 +3,5 @@
     - id: session-id-header
       name: session-id-header
       config:
-        providers: [linksub]
+        providers: ['*']
         headers: [x-session-id]

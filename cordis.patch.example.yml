@@ -1,8 +1,9 @@
 # Optional configuration override AFTER installing the bundle.
-# Replace linksub with your provider route name, not your model name.
+# '*' matches every provider using the llm-pi-ai adapter.
+# To limit providers, use route names instead, e.g. [linksub, my-gateway].
 # Append this item to the profile's existing patch array; do not overwrite it.
 # The bundle already inserts the plugin. Do not insert it a second time.
 - id: session-id-header
   config:
-    providers: [linksub]
+    providers: ['*']
     headers: [x-session-id]
