@@ -1,6 +1,6 @@
 {
   "name": "session-id-header",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Forward DeepSeek Harness session IDs as configurable HTTP headers for custom model providers",
   "type": "module",
   "scripts": {

@@ -7,3 +7,5 @@
   config:
     providers: ['*']
     headers: [x-session-id]
+    gptHeaders: [session-id, x-client-request-id]
+    claudeHeaders: [x-claude-code-session-id]
