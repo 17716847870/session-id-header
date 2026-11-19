@@ -21,6 +21,8 @@
   "engines": {
     "node": ">=24"
   },
+  "author": "qingsong",
+  "homepage": "https://github.com/17716847870/session-id-header#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/17716847870/session-id-header.git"

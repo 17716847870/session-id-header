@@ -18,6 +18,19 @@ https://github.com/17716847870/session-id-header.git#完整提交SHA
 
 等待安装成功，若界面提示重启，按提示重启后生效。通过插件管理器安装时，不需要手动填写插件文件路径，也不需要再追加 `insert` 条目。
 
+也可以通过 Harness 插件市场的「发现 → 管理索引源…」添加本仓库的索引源后直接搜索安装：
+
+```text
+https://raw.githubusercontent.com/17716847870/session-id-header/gh-pages/index.json
+```
+
+或使用 CDN / GitHub Pages 地址（若已在 GitHub 仓库设置开启 Pages）：
+
+```text
+https://cdn.jsdelivr.net/gh/17716847870/session-id-header@gh-pages/index.json
+https://17716847870.github.io/session-id-header/index.json
+```
+
 本包没有依赖项或安装脚本；安装和启用由使用者手动操作。
 
 ## 默认行为
