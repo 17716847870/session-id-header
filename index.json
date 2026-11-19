@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Session ID Header",
+    "zh": "Session ID Header 插件市场"
+  },
+  "description": {
+    "en": "DeepSeek Harness plugin index for session-id-header",
+    "zh": "session-id-header 的 DeepSeek Harness 插件索引"
+  },
+  "metadata": {
+    "categories": {
+      "llm": {
+        "title": {
+          "en": "LLM & Routing",
+          "zh": "模型与路由"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "session-id-header",
+      "title": {
+        "en": "Session ID Header",
+        "zh": "会话 ID 请求头透传"
+      },
+      "description": {
+        "en": "Forward DeepSeek Harness session IDs as HTTP headers (GPT/Codex, Claude, and default models)",
+        "zh": "透传 DeepSeek Harness 会话 ID 请求头，按 GPT、Claude 与其他模型自动区分"
+      },
+      "author": "qingsong",
+      "homepage": "https://github.com/17716847870/session-id-header#readme",
+      "repository": {
+        "url": "https://github.com/17716847870/session-id-header"
+      },
+      "metadata": {
+        "category": "llm",
+        "keywords": [
+          "deepseek-harness",
+          "dsh-plugin",
+          "session-id",
+          "gpt",
+          "claude"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.3.0",
+          "publishTimestamp": 1795101382,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/17716847870/session-id-header",
+            "commit": "242bb9381bf7927ef19f657e41cc9a50fdf3a158"
+          }
+        },
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1794828961,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/17716847870/session-id-header",
+            "commit": "44183244205fb5bc45c9b1d3384ea68e6e295cc6"
+          }
+        }
+      ]
+    }
+  ]
+}
